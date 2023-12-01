@@ -52,7 +52,7 @@ public:
     }
 
     
-    Figure * copy() const override {
+    Rectangle * copy() const override {
         return new Rectangle(*this);
     }
 
@@ -89,7 +89,7 @@ public:
     {
     }
 
-    Figure * copy() const override {
+    Cercle * copy() const override {
         return new Cercle(*this);
     }
     
