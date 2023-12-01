@@ -186,10 +186,6 @@ int main() {
     cout << "==============" << endl;
     cout << canvas << endl;
 
-    ofstream of("TestStdOut.txt");
-    of << canvas << endl;
-    of.close();
-
     return 0;
 }
 
